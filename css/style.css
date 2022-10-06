@@ -1,0 +1,110 @@
+:root {
+  --cp-body: #EFF1FF;
+  --cp-header: #8E9AAF;
+  --cp-range: #CBC0D3;
+  --fb-button: #FEEAFA;
+  --fc-fontcolor: #4A4E69;
+  --fc-fontcolorh: #FFF;
+  --fc-fontcolorp: #23053A;
+
+  font-size: 64.5%;  /* font 10px */
+  --ff-main: 'Palanquin', sans-serif;
+  --ff-heading: 'Staatliches', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-size: 1.6rem;
+}
+
+.page {
+  width: 38.4rem;
+  min-height: 199.5rem;
+  background: var(--cp-body);
+  text-align: center;
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.pageHeader h1 {
+  font-family: var(--ff-heading);
+  font-size: 4.0rem;
+  color: var(--fc-fontcolorh);
+  font-weight: 400;
+  line-height: 3.4rem;
+}
+
+.pageHeader {
+  background: var(--cp-header);
+  width: 100%;
+  height: 27.9rem;
+}
+
+.pageHeader img {
+  margin: 3.2rem 0 3.2rem;
+  width: 13.7rem;
+  height: 13.7rem;
+}
+
+.pageHeader .boxtext {
+  background: var(--cp-range);
+  width: 100%;
+  height: 4.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainP {
+  text-align: center;
+  width: 30.5rem;
+  height: 7.5;
+  font-family: var(--ff-main);
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: var(--fc-fontcolorp);
+  margin: 1.4rem auto 6.3rem;
+}
+
+.cartoon {
+  position: relative;
+}
+
+.cartoon img {
+  width: 32.0rem;
+  height: 100%;
+}
+
+.cartoon span {
+  align-items: center;
+  font-family: var(--ff-heading);
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: 400;
+  line-height: 3.4rem;
+  color: var(--fc-fontcolor);
+  background: var(--fb-button);
+  width: fit-content;
+  padding: 0 2rem;
+  height: 3.5rem;
+  border-radius: 2.0rem;
+  position: absolute;
+  top: 1.7rem;
+  right: 4.8rem;
+}
+
+.cartoon:nth-child(2) {
+  margin: 3.2rem 0 3.2rem;
+}
+
+.cartoon:nth-child(4) {
+  margin: 3.2rem 0 3.2rem;
+}
